@@ -1,0 +1,157 @@
+/*typography start form here*/
+
+*{
+	margin:0;
+	padding:0
+}
+body
+{
+	font-family: 'Raleway', sans-serif;
+}
+
+body, html
+{
+	height:100%;
+}
+
+img
+{
+
+	width:100%;
+
+}
+
+a
+{
+	text-decoration:none;
+	display:inline-block;
+}
+
+a:hover
+{
+	text-decoration:underline
+}
+
+h1
+{
+	font-weight:bolder;
+	margin:10px 0px;
+    font-size: 35px;
+}
+
+p{
+	line-height: 150%;
+	margin-bottom: 1em;
+	text-align:justify;
+    color: darkgray;
+    
+}
+
+.floatleft
+{
+
+  float:left
+
+}
+
+.floatright
+{
+
+   float:right
+   
+}
+.half-width
+{
+    padding: 2%;
+}
+section
+{
+    margin-bottom: 25px;
+}
+/*Hello-section css start from here*/
+
+.hello-section
+{   
+  
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+
+}
+.name-heighlight
+{
+ color:#FF2178;
+}
+
+.link-button
+{
+    border:2px solid #FF2178;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    background-color: #FF2178;
+    background-image: linear-gradient(315deg,  #FF2178 0%, #f67062 74%); 
+}
+.hello-section
+{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+/*Biography-section start form here*/
+
+.biography-section
+{   
+  
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.link-button
+{
+    border:2px solid #FF2178;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    background-color: #FF2178;
+    background-image: linear-gradient(315deg,  #FF2178 0%, #f67062 74%); 
+}
+
+.biography-section
+{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+/*latest-section css start form here*/
+
+.latest-section h1
+{
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom:40px;
+ 
+}
+.latest-section
+{  
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:60%;
+}
+.latest-section .half-width
+{
+    width:25%;
+    margin-left:4%;
+
+}
